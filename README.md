@@ -34,9 +34,13 @@ No dependencies needed - runs with standard Python libraries
       python port_scanner.py
 # Command Options
 Argument	Description	Default
+
 -t/--target	Target IP or domain	Required
+
 -s/--start	Starting port	1
+
 -e/--end	Ending port	1024
+
 -T/--timeout	Connection timeout (seconds)	0.5
 
 # Common Port Services
